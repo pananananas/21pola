@@ -15,7 +15,9 @@ export default function Home() {
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center">
         <BackgroundGradientAnimation>
-          <ThreeDCardDemo />
+          <div className="p-6">
+            <ThreeDCardDemo />
+          </div>
         </BackgroundGradientAnimation>
       </main> 
     </>
