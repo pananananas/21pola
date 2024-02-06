@@ -7,15 +7,16 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Wszystkiego najlepszego!!</title>
-        <meta name="description" content="z okacji urodzin" />
+        <title>🐸</title>
+        <meta name="description" content="🐸" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://use.typekit.net/tzu8wjs.css" />
+
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#6EC7D3] to-[#D398C9]">
+      <main className="flex min-h-screen flex-col items-center justify-center">
         <BackgroundGradientAnimation>
           <ThreeDCardDemo />
         </BackgroundGradientAnimation>
-        
       </main> 
     </>
   );

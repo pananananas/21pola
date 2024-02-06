@@ -49,6 +49,12 @@ export default {
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+
+        'dalliance-roman': ['dalliance-roman', 'sans-serif'],
+        'dalliance-script': ['dalliance-script', 'sans-serif'],
+        'dalliance-script-display': ['dalliance-script-display', 'sans-serif'],
+        'dalliance-flourishes': ['dalliance-flourishes', 'sans-serif'],
+        'ltc-francis': ['ltc-francis', 'regular'],
       },
     },
   },
